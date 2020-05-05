@@ -1,0 +1,31 @@
+shell -$SHELL
+
+# This sets everything back to the right color
+term screen-256color
+
+# defshell -bash 
+
+# Enable mouse scrolling and scroll bar history scrolling
+# But this breaks vim scrolling!!
+# termcapinfo xterm* ti@:te@
+
+# Make vim run in new screen instead of leaving output behind
+altscreen on
+
+# Turn off the welcome message
+startup_message off
+
+# Disable visual bell
+# vbell off
+
+# Set scrollback buffer to 10000
+defscrollback 10000
+
+caption string "%w"
+#hardstatus alwayslastline "This is a test..."
+
+# Extend the vt100 desciption by some sequences.
+# termcap  vt100* ms:AL=\E[%dL:DL=\E[%dM:UP=\E[%dA:DO=\E[%dB:LE=\E[%dD:RI=\E[%dC
+# terminfo vt100* ms:AL=\E[%p1%dL:DL=\E[%p1%dM:UP=\E[%p1%dA:DO=\E[%p1%dB:LE=\E[%p1%dD:RI=\E[%p1%dC
+
+
