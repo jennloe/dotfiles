@@ -7,3 +7,4 @@
 # Must use absolute paths, or will not work:
 ln -sf ~/dotfiles/.vimrc ~/.vimrc
 ln -sf ~/dotfiles/.screenrc ~/.screenrc
+ln -sf ~/dotfiles/.gitconfig ~/.gitconfig
