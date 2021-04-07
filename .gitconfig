@@ -3,3 +3,5 @@
 	email = jloe@sandia.gov
 [color]
 	ui = true
+[push]
+	default = simple

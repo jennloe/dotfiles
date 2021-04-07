@@ -22,6 +22,7 @@ set printfont=Courier:h10
 set printheader=%<%f%h%m\ %{strftime('%m/%d/%y\ %X')}%=Page\ %N 
 set showcmd
 set matchpairs+=<:>
+"set paste
 "set columns=80
 "autocmd VimResized * if (&columns > 109) | set columns=110 | endif
 "set wrap
