@@ -8,3 +8,10 @@
 ln -sf ~/dotfiles/.vimrc ~/.vimrc
 ln -sf ~/dotfiles/.screenrc ~/.screenrc
 ln -sf ~/dotfiles/.gitconfig ~/.gitconfig
+
+git clone https://github.com/ginkgo-project/ssget.git
+cd ssget
+sudo make install
+echo "Installed ssget"
+echo "All done!"
+
