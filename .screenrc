@@ -15,6 +15,10 @@ altscreen on
 # Turn off the welcome message
 startup_message off
 
+# Disable the cntrl-x lock so you don't do it accidentally
+# https://superuser.com/questions/343965/what-is-the-default-password-of-screen/831138
+bind x
+
 # Disable visual bell
 # vbell off
 
