@@ -9,6 +9,7 @@ ln -sf ~/dotfiles/.vimrc ~/.vimrc
 ln -sf ~/dotfiles/.screenrc ~/.screenrc
 ln -sf ~/dotfiles/.gitconfig ~/.gitconfig
 ln -sf ~/dotfiles/.inputrc ~/.inputrc
+ln -sf ~/dotfiles/.tmux.conv ~/.tmux.conf
 
 git clone https://github.com/ginkgo-project/ssget.git
 cd ssget
