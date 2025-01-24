@@ -11,8 +11,8 @@ ln -sf ~/dotfiles/.gitconfig ~/.gitconfig
 ln -sf ~/dotfiles/.inputrc ~/.inputrc
 ln -sf ~/dotfiles/.tmux.conv ~/.tmux.conf
 
-git clone https://github.com/ginkgo-project/ssget.git
-cd ssget
-sudo make install
-echo "Installed ssget"
-echo "All done!"
+#git clone https://github.com/ginkgo-project/ssget.git
+#cd ssget
+#sudo make install
+#echo "Installed ssget"
+#echo "All done!"
