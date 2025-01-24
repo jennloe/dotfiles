@@ -28,6 +28,11 @@ set matchpairs+=<:>
 "set wrap
 set linebreak
 
+"Line folding options:
+set foldmethod=indent
+set foldnestmax=10
+set nofoldenable
+set foldlevelstart=2
 "Trying to make things work with screen:
 " set mouse=r             " hold shift to copy xterm
 " set ttymouse=xterm2     " necessary for gnu screen & mouse
