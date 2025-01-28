@@ -5,6 +5,12 @@ if [ -f /etc/bashrc ]; then
 . /etc/bashrc
 fi
 
+# Cert stuff for conda
+export SSL_CERT_FILE=/etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem
+export REQUESTS_CA_BUNDLE=${SSL_CERT_FILE}
+export CURL_CA_BUNDLE=${SSL_CERT_FILE}
+export PIP_CERT=${SSL_CERT_FILE}
+
 # Uncomment the following line if you don't like systemctl's auto-paging feature:
 # export SYSTEMD_PAGER=
 

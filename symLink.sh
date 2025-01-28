@@ -15,4 +15,4 @@ ln -sf ~/dotfiles/.tmux.conv ~/.tmux.conf
 #cd ssget
 #sudo make install
 #echo "Installed ssget"
-#echo "All done!"
+echo "All done!"
