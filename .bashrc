@@ -30,6 +30,10 @@ alias Klogger='export KOKKOS_PROFILE_LIBRARY=/ascldap/users/jloe/Kokkos/kokkos-t
 alias KmemUse='export KOKKOS_PROFILE_LIBRARY=/ascldap/users/jloe/Kokkos/kokkos-tools/kp_memory_usage.so'
 alias KmemEvent='export KOKKOS_PROFILE_LIBRARY=/ascldap/users/jloe/Kokkos/kokkos-tools/kp_memory_events.so'
 
+# podman/docker on my Linux workstation:
+alias docker='sudo podman'
+alias podman='sudo podman'
+
 # Shortcut for interactive node on White
 alias internode='bsub -Is -n 16 -q rhel7G bash'
 
